@@ -12,6 +12,8 @@ import com.i64bits.databindingdemo.databinding.CustomViewBinding;
 
 public class CustomView extends LinearLayout implements View.OnTouchListener
 {
+    private static final String TAG = "CustomView";
+
     CustomViewBinding binding;
 
     public CustomView(Context context)
