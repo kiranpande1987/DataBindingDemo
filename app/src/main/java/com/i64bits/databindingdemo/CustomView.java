@@ -16,6 +16,7 @@ public class CustomView extends LinearLayout implements View.OnTouchListener
     private static final String TAG = "CustomView";
 
     CustomViewBinding binding;
+    User user;
 
     public CustomView(Context context)
     {
